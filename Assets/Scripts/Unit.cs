@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HumanPlayerControls : PlayerControls
+public class Unit : MonoBehaviour
 {
-    
+    //bb
 }
