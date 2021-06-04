@@ -16,6 +16,11 @@ public class UnitControl : MonoBehaviour
         TargetPosY = transform.position.y;
     }
 
+    /*public void Start()
+    {
+        MoveToGridPos(0, 0);
+    }*/
+
     public void MoveToGridPos(int x, int y)
     {
         TargetPosX = GameGrid.ConvertGridPosToRealPos(x);
