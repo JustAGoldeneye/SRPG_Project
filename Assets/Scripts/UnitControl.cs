@@ -34,7 +34,7 @@ public class UnitControl : MonoBehaviour
         return transform.position.x == TargetPosX && transform.position.y == TargetPosY;
     }
 
-    public void FixedUpdate()
+    public void Update()
     {
         if (!IsInTargetPos())
         {
